@@ -1,0 +1,15 @@
+Responsive Netflix Clone By using REACT JS 
+
+![Screenshot (76)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/46f2b25e-834f-4ea2-8d73-cc434c4b9220)
+![Screenshot (77)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/814f2679-64a6-478f-afd3-41472f8ffaa5)
+![Screenshot (78)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/44a3d190-6dad-4cf3-a193-694e263bfcb2)
+![Screenshot (80)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/c042e87c-cad9-4dcd-9757-0050d333a822)
+![Screenshot (81)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/76694d2f-1a5b-467c-a4f4-3342cafbbf5d)
+![Screenshot (82)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/8cc3547f-62b8-4268-a97e-c285fa8468be)
+![Screenshot (83)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/5b183ded-8031-4e9a-bf79-145c2f693d67)
+![Screenshot (84)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/c7c3cc13-a25d-4047-9109-95d7fce6dce2)
+![Screenshot (85)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/6643792b-1212-4c3a-9904-df0e99a96492)
+![Screenshot (86)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/533dcfc2-a96e-4357-926d-3cdb57474316)
+![Screenshot (87)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/1b640e0e-f6ff-450f-891b-b5d2f744d37b)
+![Screenshot (88)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/be22f61c-310f-4232-bd1c-b0edbf023cf0)
+![Screenshot (89)](https://github.com/MaheshAk999/Responsive-Netflix-Clone-using-REACT-JS/assets/132835909/da34bfb9-388a-4b5b-aabd-a1e9908e1a83)
