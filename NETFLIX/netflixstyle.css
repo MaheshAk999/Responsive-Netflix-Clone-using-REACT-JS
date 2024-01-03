@@ -1,0 +1,509 @@
+.netflixlogo{
+    width:3.5cm;
+    height:1.0cm;
+}
+.navbarhome{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    background-color:#2f2c2c; 
+    z-index:1;
+}
+body{
+    background-color:#181818; 
+    color:#FFFFFF;
+    box-sizing: border-box !important;
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+    border-radius:0px;
+}
+.btn-outline-light:hover{
+    background-color: rgb(92, 104, 116) !important;
+    color:white;
+}
+@media screen and (min-width:25cm){
+    .navbarhomecontent{
+        display:block !important;
+        right:6cm;  
+        position: absolute;
+        top:20px;
+    }
+}
+.netflixhomenavdown {
+    padding:0px 25px 5px 25px; 
+ }
+.netflixhomenavdown h1{
+    font-weight:900;
+    font-size: 45px;
+    margin-top:0.5cm;
+}
+.netflixhomenavdown span{
+    color:#FFFFFF;
+    max-width:16cm; 
+    display: block;
+}
+@media screen and (min-width:25cm){
+    .netflixhomenavdown{
+        margin-top:1cm;
+    }
+}
+.popularonnetflix{
+    padding:0.4cm 0.5cm 0cm 0.4cm;
+}
+.popularonnetflix p{
+    font-weight: 600;
+}
+.popularonnetflix .popularone{
+    display: flex;
+    overflow: auto;
+}
+body div::-webkit-scrollbar{
+    display: none;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(119, 113, 113); 
+    border-radius: 15px;
+  }  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5b5757; 
+  }
+.popularonnetflix .popularone .posters-title{
+    padding:7px;
+    text-align: center;
+    font-size: '18px';
+    transition: 420ms;
+}
+.posters-title img{
+    cursor:pointer;
+}
+.popularonnetflix .popularone .posters-title:hover{
+    transform: scale(1.05);
+}
+.netflixevenmore{
+    font-size: 25px;
+    padding:1cm 0.5cm;
+}
+.netflixevenmore p{
+    display: block;
+    max-width:20cm;
+}
+footer  a{
+    color:#FFFFFF !important;
+    text-decoration: none;
+    opacity: 0.4;
+    display: block;
+    padding:8px;
+    font-size: 15px;
+}
+footer div{
+    padding: 20px 0px 0px 20px;
+    max-width: 25cm;
+}
+ div select,.signupnetflix select{
+    margin: 1cm 0.5cm;
+    background-color: #181818;
+    padding: 2px 15px 5px;
+    outline: none;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+div select{
+    margin:1cm 0cm 0.5cm 0cm;
+}
+.signupnetflix{
+    height:100%;
+    padding-bottom: 3.85cm;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/jpg/signupbackground/signupbackground.jpg');
+}
+.netflixsignupphoto{
+    width:4.5cm;
+    height:1cm;
+}
+@media screen and (max-width:14cm){
+    
+    .netflixlogobig{
+        display: none !important;
+    }
+    .netflixlogosmall{
+        display: block !important;
+        width:1.5cm;
+        height:1cm;
+    }
+    .navbarhome button{
+        font-size:12px;
+        padding:7px 10px 7px;
+    }
+    .joinnownetflix{
+        position: absolute;
+        right:2.5cm !important;
+    }
+    .navbarhome{
+        padding: 10px !important;
+    }
+}
+.netflixsignupnav{
+    padding: 25px;
+    text-align: left !important;
+}
+.netflixsignupnav img{
+    position:-webkit-sticky !important;
+    position: sticky !important;
+    top:0px;
+}
+.netflixsignupbar{
+    max-width:12cm;
+    background-color: #181818;
+    margin:0px auto 1cm;
+    padding: 2cm;
+}
+.signupnetflix input[type="text"],input[type="password"],.inputfooter{
+    background-color: #333333;
+    border-bottom:3px solid #E87C03 !important;
+    border:none;
+    width:8cm;
+    padding: 10px;
+    height:1.3cm;
+    border-radius: 5px;
+    outline:none;
+    color:#FFFFFF;
+}
+.signupnetflix input::placeholder{
+    padding-left:1cm;
+}
+.signupbutton{
+    width:8cm;
+    padding: 10px;
+    height:1.3cm;
+    border-radius: 5px;
+}
+.spansigninshowhide{
+    position: relative;
+    top:2.9cm;
+    left:6cm;
+    cursor:pointer;
+}
+@media screen and (max-width:20cm)
+{
+    .netflixsignupbar{
+        width:8cm;
+        padding: 0.5cm;
+    }
+    .signupnetflix{
+        padding-bottom: 3.03cm;
+    }
+    .signupnetflix input[type="text"],input[type="password"]{
+        width:7cm;
+    }
+    .signupbutton{
+        width:7cm;
+    }
+    .spansigninshowhide{
+        left:5cm;
+    }
+
+}
+.checkboxsignup{
+    accent-color: red;
+    height: 0.5cm;
+    width:0.6cm;
+}
+.signupnetflix span:not(.newtonetflixsignup){
+    opacity: 0.5;
+    position: relative;
+    bottom: 5px;
+}
+.newtonetflixsignup{
+    position: relative;
+    bottom:5px;
+}
+.netflixhomecentrecontent{
+    padding: 1cm;
+    max-width: 27cm;
+    margin:3cm auto;
+}
+.netflixhomecentrecontent h1{
+    font-weight: 760;
+    font-size: 2.7rem;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.netflixhomecentrecontent p{
+    font-size: 25px;
+}
+.netflixhomecentrecontent button{
+    border-radius: 3px;
+    font-size: 19px;
+}
+@media screen and (max-width:25cm){
+    .netflixhomecentrecontent h1{
+       font-weight: 650;
+       font-size: 2rem;
+    }
+    .netflixhomecentrecontent p{
+        font-size: 19px;
+    }
+    .netflixhomecentrecontent button{
+        display: block;
+        margin-top: 15px;
+    }
+    .buttonfooternetflixhome{
+        display: block;
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width:25cm)
+{
+    .netflixhomecentrecontent button,.buttonfooternetflixhome{
+        margin-left: 15px;
+    }
+}
+.bordernetflixhome{
+    height:10px;
+    background-color: rgb(35,35,35);   
+}
+@media screen and (max-width:15cm)
+{
+    .netflixhomecentrecontent{
+        margin:1cm 0px;
+    }
+    .signupnetflix select{
+        display: none;
+    }
+    .footertopnetflix p{
+        padding: 20px;
+    }
+}
+.tvnetflixhome{
+    width:13.5cm;
+    height:12cm;
+}
+.netflixhometv{
+    padding:1cm;
+}
+.netflixhometv p{
+    font-size: 2rem;
+}
+@media screen and (max-width:30cm)
+{
+    
+    .netflixhometv p{
+        font-size: 20px;
+    }
+    
+    .netflixhometv1{
+        padding:1cm !important;
+    }
+
+    .tvnetflixhome{
+        width:9cm;
+        height:8cm;
+    }
+    .netflixhometv .first{
+        position: relative;
+        top:30px;
+    }
+}
+@media screen and (min-width:30cm)
+{
+    .netflixhometv1 h1{
+        font-weight:900;
+    }
+    .netflixsignupnav{
+        position:sticky;
+        top:0px;
+    }
+}
+.accordion-body{
+    background-color: #181818;
+}
+.accordion-item strong{
+    font-size:25px;
+} 
+.accordion-item button {
+    box-shadow: none !important;
+  }
+.accordion-body,.comingsoonnetflixbanner span{
+    font-size:20px;
+    text-align: left;
+}
+@media screen and (max-width:15cm)
+{
+    .accordion-item strong{
+        font-size:18px;
+        margin:0px;
+    }
+    .tvnetflixhome{
+        width:7.5cm;
+        height:8cm;
+    }
+}
+
+.banner{
+    padding:1cm 0.7cm 1cm;
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)),url('./assets/png/banners/railwayman.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bannerinsidepng{
+    width:11cm;
+    height:2.5cm;
+}
+.banner h2{
+    max-width:11cm;
+    font-size: 23px;
+    padding:1.2cm 0cm 0cm;
+}
+.banner span{
+    margin:0cm 1px;
+    color:#a1a1a1;
+    font-size: 13px;
+}
+.banner #spanagerestriction{
+    border: 1px solid #a1a1a1;
+    padding:0px 5px;
+    font-size: 15px;
+}
+.banner .bannercontent,p{
+    max-width: 13cm;
+}
+
+
+
+.bannerdowncontent{
+    background-color: #333333;
+    height:2cm;
+    padding:1.5rem 0px;
+}
+.bannerdownpng{
+    width:1.5cm;
+    height:1cm;
+    position: relative;
+    bottom:5px;
+}
+@media screen and (max-width:8cm)
+{
+    .tvnetflixhome{
+        width:6cm;
+        height:6cm;
+    }
+    .netflixhomefirstbutton,.inputfooter
+    {
+        width:5.5cm !important;
+    }
+    .netflixhometv1{
+        margin:0px !important;
+        padding: 1cm !important;
+     }
+     
+     
+}
+
+.videosnetflixbanner{
+    padding: 0cm 0cm 1cm;
+}
+.videosnetflixbanner h2,.videosnetflixbanner span,.episodesnetflixbanner{
+    padding: 0cm 0.7cm 0cm;
+}
+.videosnetflixbanner span{
+    color:#a1a1a1;
+}
+.videosnetflixbanner1{
+    display: flex;
+    overflow: auto;
+    margin-left: 0.7cm;
+}
+
+.videosnetflixbanner1 video{
+    width:15cm;
+    height:10cm;
+    border:2px solid #5b5757
+}
+.videosnetflixbanner1 div{
+    padding: 10px;
+}
+.videosnetflixbanner1 div:nth-child(1)
+{
+    padding-left:0px;
+}
+@media screen and (max-width:14cm)
+{
+    .bannerinsidepng{
+        width:8cm;
+        height:2cm;
+    }
+    .banner{
+        background: linear-gradient(0deg,#181818 0,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%),url('./assets/png/banners/railwaymansmall.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 7.5cm;
+    }
+}
+@media screen and (max-width:10cm)
+{
+    .banner{
+        padding-top: 6cm;
+    }
+    .banner b{
+        font-size: 15px;
+    }
+    .bannerinsidepng{
+        width:6cm;
+    }
+    .morelikethisnetflixbanner img{
+        width:6.5cm;
+        height:4cm;
+     }
+}
+.castnetflixbanner span{
+    padding:0px 20px;
+}
+@media screen and (max-width:20cm)
+{
+    .videosnetflixbanner1 video,.episodesnetflixbanner1 img{
+        width:6cm;
+        height:5cm;
+    }
+    .videosnetflixbanner1{
+        padding-right:0.3cm;
+    }
+    .episodesnetflixbanner1
+    {
+        padding-left:0px !important;
+
+    }
+    .videosnetflixbanner{
+        padding-left:0cm;
+    }
+    .videosnetflixbanner h2,.videosnetflixbanner span{
+        padding-left:0.7cm;
+    }
+    .videosnetflixbanner span{
+        display: block;
+        text-align: left;
+    }
+    .castnetflixbanner span{
+        display: block;
+        padding: 0px;
+    }
+    .comingsoonnetflixbanner div{
+        min-width: 5cm !important;
+    }   
+}
+.moredetailsnetflixbanner div{
+    min-width: 6cm !important;
+}
+.moredetailsnetflixbanner span{
+    color:#a1a1a1;
+}
+.comingsoonnetflixbanner div{
+    min-width: 8cm;
+}
+.comingsoonnetflixbanner p{
+    color:#a1a1a1;
+}    
